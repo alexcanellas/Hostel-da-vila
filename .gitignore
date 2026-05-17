@@ -1,0 +1,59 @@
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Dependências
+/vendor/
+composer.phar
+composer.lock
+
+# Logs
+/storage/logs/*.log
+/storage/logs/**/*.log
+*.log
+
+# Cache
+/storage/cache/*
+!/storage/cache/.gitkeep
+
+# Uploads
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# PHPUnit
+.phpunit.result.cache
+/coverage/
+
+# Backup files
+*.sql
+*.sql.gz
+backup_*.sql
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts
+/build/
+/dist/
+
+# OS files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
