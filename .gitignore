@@ -33,10 +33,10 @@ composer.lock
 .phpunit.result.cache
 /coverage/
 
-# Backup files
-*.sql
-*.sql.gz
+# Backup files (não ignora docker/mysql/init.sql)
 backup_*.sql
+*.sql.gz
+dump_*.sql
 
 # Temporary files
 *.tmp
